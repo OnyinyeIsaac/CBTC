@@ -13,9 +13,8 @@
 
 /* Body section */
 body{
-    /* background: rgb(0, 26, 26); */
-    background: white;
-    color: grey;
+    background: rgb(0, 26, 26);
+    color: white;
 }
 
 /* Body section end */
@@ -41,7 +40,7 @@ body{
 .logo{
     position: relative;
     font-size: 25px;
-    color: grey;
+    color: white;
     text-decoration: none;
     font-weight: 500;
 }
@@ -63,7 +62,7 @@ body{
 /* Navbar section starts  */
 .navbar a{
     font-size: 18px;
-    color: grey;
+    color: white;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
