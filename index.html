@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Head section starts  -->
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+
+    <!-- Custom css link  -->
+
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <!-- end of head section -->
@@ -14,16 +22,17 @@
 <body>
 
    <!-- Header section starts -->
-   <header class="header">
+   <header>
     <a href="#" class="logo">Onyi<span>n</span>ye</a>
 
-    <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-    </nav>
+   <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
    <div class="bx bx-menu" id="menu-icon">
 
    </div>
@@ -34,46 +43,131 @@
 
    <!-- Hone section starts -->
    <section class="home" id="home">
-        <div class="home-content">
+        <div class="home-text">
             <div class="slide">
-            <span class="one">Hi</span>
+            <span class="one">Hello</span>
             <span class="two">I'm</span>
             </div>
             <h1>Orji Grace Onyinyechi</h1>
-            <h3>Front-end Developer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio cupiditate aut architecto, fugit cumque reprehenderit animi tenetur obcaecati error mollitia alias inventore amet deleniti facere dolorum blanditiis ad esse consectetur?</p>
-            <div class="btn-box">
-                <a href="#">Hire Me</a>
-                <a href="#">Acquaintance</a>
+            <h3>Front-end<span> Developer.</span></h3>
+            <p>A skilled web developer who is ready to put skill to work</p>
+            <div class="button">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#" class="btn2"><span><i class='bx bxs-user-check'></i></span>Get Acquainted</a>
             </div>
         </div>
 
-        <div class="social-media">
+
+         <div class="social-media">
             <a href="#"><i class='bx bx-mail-send'></i></a>
             <a href="#"><i class='bx bxl-twitter'></i></a>
             <a href="#"><i class='bx bxl-linkedin'></i></a>
             <a href="#"><i class='bx bxl-instagram'></i></a>
         </div>
 
-        <span class="home-imgHover"></span>
    </section>
+
+   <!-- Home Section ends  -->
 
 <!-- About Section Starts  -->
 <section class="about" id="about">
     <div class="about-img">
-        <img src="profile picutre 1.png">
+        <img src="Snapchat-1361836420 (1).jpg">
     </div>
 
     <div class="about-text">
         <h2>About <span>Me</span></h2>
-        <h4>Creative Front-end Developer !</h4>
+        <h4>Creative Front-end Developer!</h4>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque repellendus nihil non, impedit sapiente voluptatem animi assumenda itaque at sed?</p>
+      
+        <a href="#" class="btn">More About</a>
     </div>
+</section>
+
+<!-- Service section starts -->
+
+<section class="services" id="services">
+    <div class="main-text">
+        <p>What I am Expert In</p>
+        <h2><span>My</span> Services</h2>
+    </div>
+
+    <div class="service-content">
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bx-mobile-alt'></i>
+            </div>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="read">Read More</a>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bx-edit-alt' ></i>
+            </div>
+                <h3>Interactive Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="read">Read More</a>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bx-code' ></i>
+            </div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="read">Read More</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Service section ends  -->
+
+<!-- Portfolio section starts  -->
+<section class="Portfolio" id="Portfolio">
+    <div class="main-text">
+        <p>Portfolio</p>
+        <h2><span>Latest</span> Projects</h2>
+    </div>
+
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="Web design 1.jpg">
+            <div class="layer">
+                <h5>Visual Design</h5>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="Web design 2.jpg">
+            <div class="layer">
+                <h5>Visual Design</h5>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="Web design 3.jpg">
+            <div class="layer">
+                <h5>Visual Design</h5>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+    </div>
+
 
 </section>
 
 
-   <script type="text/javascript" src="js/script.js"></script>
+
+<!-- Custom js link  -->
+   <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
